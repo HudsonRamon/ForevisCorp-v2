@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contratação de funcionários</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<div class="logo">
+    <a href="#"><img src="../img/fc (1).png"></a>
+</div>
+
+<div class="w3-bar" style=" width: 100%; height: 90px; background: #050505; overflow: auto;">
+	<ul>
+		<li><a class="w3-bar-item w3-text-Gray w3-hover-opacity" style="width: 200px; height: 88px; font-family: 'Open Sans', sans-serif; color: #ffffff; text-align: center; text-decoration: none;" href="../index.html">Inicio</a></li>
+        <li><a class="w3-bar-item w3-text-Gray w3-hover-opacity" style="width: 200px; height: 88px; font-family: 'Open Sans', sans-serif; color: #ffffff; text-align: center; text-decoration: none;" href="destinos.html">Destinos</a></li>
+        <!-- <li><a class="w3-bar-item w3-text-Gray w3-hover-opacity" style="width: 200px; height: 88px; font-family: 'Open Sans', sans-serif; color: #ffffff; text-align: center; text-decoration: none;" href="forms.html">Novos funcionários</a></li> -->
+        <li><a class="w3-bar-item w3-text-Gray w3-hover-opacity" style="width: 200px; height: 88px; font-family: 'Open Sans', sans-serif; color: #ffffff; text-align: center; text-decoration: none;" href="abertura_chamados.html">Novo chamado</a></li>
+        <li><a class="w3-bar-item w3-text-Gray w3-hover-opacity" style="width: 200px; height: 88px; font-family: 'Open Sans', sans-serif; color: #ffffff; text-align: center; text-decoration: none;" href="itinerario.html">Itinerário</a></li>
+    </ul>
+</div>
+
+<div align="center" class="w3-container w3-Gray w3-panel w3-border w3-border-gray w3-margin">
+    <h1>Contratação de funcionários </h1>
+    <h2>Informe seus dados abaixo:</h2>
+</div>
+<div>
+    <form action="" method="post" class="w3-container w3-card-4 w3-center" style="width: 80%; margin: 30px auto;">
+        <div>
+			<input type="text" placeholder="informe seu nome" class="w3-input w3-margin-bottom">
+			<!-- <label>NOME</label> -->
+        </div>
+        <div>
+		<input type="email" placeholder="Informe seu email" class="w3-input w3-margin-bottom">
+            <!-- <label>E-MAIL</label> -->
+        </div>
+        <div>
+		<input type="number" placeholder="ex.: 0000-0000" class="w3-input w3-margin-bottom">
+            <!-- <label>TELEFONE PARA CONTATO</label> -->
+        </div>
+        <div>
+		<input type="text" placeholder="seu endereço" class="w3-input w3-margin-bottom">
+            <!-- <label>ENDEREÇO</label> -->
+        </div>
+        <div class="w3-center w3-panel w3-border w3-round w3-border-gray">
+		<label class="w3-left"><h5>CARGO:</h5></label> 
+		<div class="w3-margin">
+			<input class="w3-radio" type="radio" name="cargo" value="Motorista"> 
+						<label>Motorista</label>
+
+			<input class="w3-radio" type="radio" name="cargo" value="Venderdor de Passagens"> 
+						<label>Vendedor de Passagens</label>
+
+			<input class="w3-radio" type="radio" name="cargo" value="Supervisor(a)"> 
+						<label>Supervisor(a)</label>
+
+			<input class="w3-radio" type="radio" name="cargo" value="Auxiliar administrativo"> 
+						<label>Auxiliar administrativo</label>
+
+			<input class="w3-radio" type="radio" name="cargo" value="Gerente"> 
+						<label>Gerente</label>
+
+		</div>
+        </div>
+        <div>
+		<label class="w3-left w3-margin">CURRÍCULO:</label>
+		<input type="file" placeholder="Currículo" class="w3-input w3-margin-bottom" >
+        </div>
+        <div>
+            <button type="button" class="w3-input w3-margin-bottom">ENVIAR!</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
